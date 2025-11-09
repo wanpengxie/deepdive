@@ -26,6 +26,7 @@ git clone https://github.com/wanpengxie/deepdive.git
 1. thinking过程转化为显式的todo list，而不是一次思考就结束，好处是
    * 尽量让claude自己梳理问题背景和边界，而不是消耗用户的心智
    * 在梳理清晰的基础上，输出todo或者ask user，可以细粒度的跟用户对齐方向和预期，并且精准的控制claude的行为
+   * 单次output的长度是有限的，而转化为agent执行可以允许模型无限长度、无限深度的思考
 3. 用元策略显式的指导claude如何进行非线性思考和迭代
 4. 避免过于强调目标导向带来的偏差：允许模型坦诚的承认自己的置信度，对用户更透明
 
